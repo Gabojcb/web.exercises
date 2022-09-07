@@ -1,0 +1,88 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    border: 1px solid black;
+    margin: auto 190px;
+    margin-top: 80px;
+    padding: 40px;
+    border-radius: 6px;
+    
+    
+}
+
+input {
+    padding: 10px 50px;
+}
+
+.input-1 {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.input-2 {
+    position: relative;
+    bottom: 39px;
+    left: 280px;
+}
+
+.p {
+    position: relative;
+    bottom: 14px;
+}
+
+.input-4 {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.input-5 {
+    position: relative;
+    bottom: 39px;
+    left: 280px;
+}
+
+.parrafo {
+    position: relative;
+    bottom: 50px;
+}
+
+.input-6 {
+    position: relative;
+    bottom: 60px;
+}
+.parrafo-2 {
+    position: relative;
+    bottom: 95px;
+    left: 30px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+button {
+    background-color: blue;
+    border: none;
+    padding: 10px 35px;
+    color: #fff;
+    border-radius: 6px;
+    position: relative;
+    bottom: 33px;
+    left: 280px;
+}
+
+button>a {
+    color: #fff;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+
+footer>a {
+    color: black;
+}

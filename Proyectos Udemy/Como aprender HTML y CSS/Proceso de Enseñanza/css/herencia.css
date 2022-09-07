@@ -1,0 +1,8 @@
+div p {
+    color: coral;
+}
+
+div > p {
+    font-weight: bold;
+    text-decoration: underline;
+}

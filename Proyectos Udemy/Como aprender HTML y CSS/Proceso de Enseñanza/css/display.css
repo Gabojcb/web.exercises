@@ -1,0 +1,17 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: slategray;
+    display: inline-block;
+}
+
+span {
+    color: tomato;
+    font-weight: bold;
+    display: block;
+}
+
+#dos {
+    /*display: none;*/
+    visibility: hidden;
+}

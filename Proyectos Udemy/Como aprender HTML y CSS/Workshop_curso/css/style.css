@@ -1,0 +1,19 @@
+* {
+    margin: 0; padding: 0;
+}
+
+body {
+    background: url(../img/Fondo.jpg) no-repeat top center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+#redes {
+    position: fixed;
+}
+#cabecera {position: relative; padding-top: 20px; }

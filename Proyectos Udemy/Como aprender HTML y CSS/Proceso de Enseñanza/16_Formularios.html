@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+    <body>
+    <form action="#" method="post">
+        Nombre: <input type="text" name="Usuario" size="15" maxlength="10"><br>
+        password: <input type="password" name="password" size="15" maxlength="10"><br>
+        Comentarios: <br>
+            <textarea name="comentarios" cols="20" rows="4"></textarea>
+        <hr>
+        servicio de musica:<br>
+        <input type="checkbox" name="servicio" value="itunes" checked>itune <br>
+        <input type="checkbox" name="servicio" value="latfm"> Last.fm <br>
+        <input type="checkbox" name="servicio" value="spotify">spotify<br>
+
+        <hr>
+        seleccione su genero:<br>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="femenino"> femenino
+
+         <hr>
+           
+         <select name="dispositivo">
+            <option value="">dispositivo para escuchar musica?</option>     
+            <option value="ipod">ipod</option>
+            <option value="radio">radio</option>
+            <option value="computador">computador</option>
+        </select> 
+            <hr>
+        <select name="dispositivo" size="4" multiple>
+                <option value="">dispositivo para escuchar musica?</option>     
+                <option value="ipod">ipod</option>
+                <option value="radio">radio</option>
+                <option value="computador">computador</option>
+        </select>
+        
+            <hr>
+            <label for="edad">Edad:</label>
+            <input type="text" name="edad">
+
+            <fieldset>
+                <legend>Informacion de Contacto</legend>
+                <label for="emali">Email:</label>
+                <input type="text" name="email"><br>
+                <label for="celular">celular:</label>
+                <input type="text" name="celular"><br>
+                <label for="telefono">Telefono:</label>
+                <input type="text" name="telefono"><br>
+            </fieldset>
+
+            <input type="submit" name="inscripcion" value="inscripcion">
+            
+    </form>
+                 
+    </body>
+</html>
