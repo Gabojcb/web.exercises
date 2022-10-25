@@ -1,0 +1,51 @@
+/*
+
+*/
+body {
+    text-align: center;
+    background-color: chocolate;
+} 
+
+.container {
+    border: solid 6px;
+    border-radius: 19px;
+    width: 70%;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-color: darksalmon;
+}
+
+input.show {
+    height: 50px;
+    border: solid 3px rgb(151, 0, 0);
+    border-radius: 7px;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+input.num {
+    margin-top: 20px;
+    width: 57px;
+    height: 60px;
+    border: solid 3px;
+    cursor: pointer;
+}
+
+.num{
+    font-size: 28px;
+    border-radius: 25px;
+}
+
+.num.blue {
+    background-color: cornflowerblue;
+}
+
+.num.red {
+    background-color: firebrick;
+}
+
+.num.green {
+    background-color: lawngreen;
+}
