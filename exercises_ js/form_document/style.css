@@ -1,0 +1,117 @@
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}    
+
+body {
+    background-image: linear-gradient(175deg, #1ee9ce 20%, rgb(98, 158, 161));  /*rgb(21, 230, 213*/ 
+}
+
+#container {
+    border: solid 4px;
+    width: 30%;
+    height: 700px;
+    margin: 75px auto;
+    border-radius: 12px;
+    padding: 30px 70px;
+    background-color: ivory;
+        
+}
+
+div.instructions {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    background-color: rgba(30, 235, 183, 0.788);
+    border: solid 2px black;
+    border-radius: 9px;
+}
+
+.text--name {
+    font-size: 16px;
+    margin: 0;
+    color: red;
+    margin-left: 10px;
+    
+}
+
+.text--lastName {
+    font-size: 16px;
+    margin: 0;
+    color: red;
+    margin-left: 10px;
+    
+}
+
+.text--age {
+    font-size: 16px;
+    margin: 0;
+    color: red;
+    margin-left: 10px;
+}
+
+.text--email {
+    font-size: 16px;
+    margin: 0;
+    color: red;
+    margin-left: 10px;
+    
+}
+
+.text--data {
+    font-size: 16px;
+    margin: 0;
+    color: red;
+    margin-left: 10px;
+}
+
+.form_input {
+    width: 89%;
+    height: 35px;
+    border: solid 2px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    background-color: rgb(221, 206, 206);
+}
+
+.form_input:invalid {
+    border: solid 2px red;
+}
+
+
+.form_input:focus {
+    border: solid 4px mediumspringgreen;
+}
+
+.form_checkbox {
+    margin-top: 35px;
+    margin-right: 10px;
+}
+
+
+.button_send {
+    margin-top: 35px;
+    margin-left: 125px;
+    width: 37%;
+    border: solid 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(221, 206, 206);
+}
+
+.button_send:hover {
+    background-image: linear-gradient(135deg, #37eb91 40%, rgb(6, 100, 77));
+} 
+
+.button_send:active {
+    box-shadow: 2px 8px 10px rgb(15, 207, 118);
+    font-weight: bold;
+}
