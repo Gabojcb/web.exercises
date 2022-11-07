@@ -7,6 +7,17 @@ function validate(){
         emailR: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
         dataR: /^(0[1-9]|[1-2]\d|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/
     }
+
+    let stored = [];
+
+    function Users(name, lastName, age, email, birth){
+        this.name = name,
+        this.last = lastName,
+        this.age = age,
+        this.email = email,
+        this.birth = birth 
+    }
+
     //Constantes de los parrafos 
     const message = document.querySelector('.text--name');
     const message2 = document.querySelector('.text--lastName');
@@ -24,33 +35,38 @@ function validate(){
     if(! regex.nameR.test(name.value)){
         console.log(message.innerHTML= 'Incorrect data'); 
     }else {
-        console.log('Valid name');
+        console.log(`valid name`);
     };
 
     if(! regex.lastNameR.test(lastName.value)){
         console.log(message2.innerHTML='Incorrect data');  
     }else {
-        console.log('Valid surname');
+        console.log(`valid surname`);
     };
         
     if(! regex.ageR.test(age.value)){
         console.log(message3.innerHTML='Incorrect data');
     }else {
-        console.log('Valid age');
+        console.log(`Valid age`);
     };
 
     if(! regex.emailR.test(email.value)){
         console.log(message4.innerHTML='Incorrect data');
     }else {
-        console.log('Valid email');
-    };
-
-    if(! regex.dataR.match(data.value)){
-        console.log(message5.innerHTML='Incorrect data');
-    }else {
-        console.log('Valid Birth');
+        console.log(`Valid email`);
     };
       
+    if(! regex.dataR.match(data.value)){ 
+        console.log(message5.innerHTML='Incorrect data');
+    }else {
+        console.log(data.value);
+    };
+
+    const insert = new Users(name.value, lastName.value, age.value, email.value);
+    stored.push(insert);
+        
+    localStorage.setItem('list', JSON.stringify(stored));
+    console.log(localStorage.getItem("list"));
 }
 
 function start(){

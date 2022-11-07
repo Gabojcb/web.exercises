@@ -1,13 +1,43 @@
 
-function Calculador(){
-        let preRecord = [];
+
+
+function showFun (event) {
+    const showNumbers = document.querySelector("#showNumber");
+    const operators = document.querySelectorAll('.operator');
+    const buttonNum = event.currentTarget;
+       
+    operators.forEach(operation => {
+        operation.addEventListener('click', (event) => {
+        const targetValue = event.currentTarget.value;
+       
+        });
+    });
+    console.log(showNumbers.value += target.value); 
+    
+    calculador.operacion1("Suma", 33, 12);            
+}       
+
+function start() {
+    const buttonNumbers = document.querySelectorAll(".button_number");
+    buttonNumbers.forEach(item => {
+        item.addEventListener('click', showFun); 
+    })    
+ }
+
+function Calculador() {
+           let preRecord = [];
             characters ={
                 add: "+",
                 subtract: "-",
                 multiplication: "*",
                 division: "/"
         };
-        
+            means ={
+                currentValue: a,
+                stored: b,
+                operation: c 
+            }
+                        
         this.operacion1 = function (operation, num1, num2){
             let data1;                                  
             let saveResult;
@@ -66,10 +96,8 @@ function Calculador(){
             record.push(preRecord);
             return record;
         }
+                 
     }
-    const calculador = new Calculador();
-    calculador.operacion1("Suma", 33, 12);
-    calculador.operacion2("Resta", 233, 36);
-    calculador.historico();
-
-    
+          
+    document.addEventListener('DOMContentLoaded', start); 
+        

@@ -16,7 +16,7 @@ body {
     background-color: darksalmon;
 }
 
-input.show {
+input#show {
     height: 50px;
     border: solid 3px rgb(151, 0, 0);
     border-radius: 7px;

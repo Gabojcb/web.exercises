@@ -6,34 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="calculator.js"></script>
 </head>
 <body>
         <form id="container_calculator">
-                <button class="container_button">
-                    <div>
-                        <input type="text" class="button_showNumber">            
-                    </div>
-                        <input type="button" value="7" class="button_number">
-                        <input type="button" value="8" class="button_number">
-                        <input type="button" value="9" class="button_number">
-                        <input type="button" value="/" class="button_number">
+            <div>
+                <input type="text" id="showNumber" placeholder="0">            
+            </div>
+                <input type="button" value="7" class="button_number">
+                <input type="button" value="8" class="button_number">
+                <input type="button" value="9" class="button_number">
+                <input type="button" value="/" class="button_number operator">
                                 <br>
-                        <input type="button" value="4" class="button_number">
-                        <input type="button" value="5" class="button_number">
-                        <input type="button" value="6" class="button_number">
-                        <input type="button" value="x" class="button_number">
+                <input type="button" value="4" class="button_number">
+                <input type="button" value="5" class="button_number">
+                <input type="button" value="6" class="button_number">
+                <input type="button" value="x" class="button_number operator">
                                 <br>
-                        <input type="button" value="1" class="button_number">
-                        <input type="button" value="2" class="button_number">
-                        <input type="button" value="3" class="button_number">
-                        <input type="button" value="-" class="button_number">
+                <input type="button" value="1" class="button_number">
+                <input type="button" value="2" class="button_number">
+                <input type="button" value="3" class="button_number">
+                <input type="button" value="-" class="button_number operator">
                                 <br>
-                        <input type="button" value="0" class="button_number">
-                        <input type="button" value="." class="button_number">
-                        <input type="button" value="+" class="button_number">
-                        <input type="button" value="=" class="buttom_igualdad">
-                </button> 
+                <input type="button" value="0" class="button_number">
+                <input type="reset" value="C" class="button_number reset">
+                <input type="button" value="+" class="button_number operator">
+                <input type="button" value="=" class="buttom_igualdad">
         </form>
-    </div>
 </body>
 </html>

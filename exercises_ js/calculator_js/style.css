@@ -5,20 +5,20 @@
     font-size: 60px;
 }
 
+body {
+    background-image: linear-gradient(175deg, #4395e2 20%, rgb(0, 122, 236));
+}    
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
 #container_calculator{
+    width: 70%;
     margin: 100px auto;
-    margin-left: 240px;
-    padding: 20px 10px;
-        
-}
-
-.container_button{
-    margin: 0 auto;
-    padding: 40px 25px 20px 25px;
-    height: 600px;
-    background-color: rgb(80, 80, 80);
+    padding: 80px 30px;
+    padding-left: 75px;
+    height: 650px;
+    background-color: dimgray;
     border-radius: 22px;
+    border: solid 3px;
+        
 }
 
 div{
@@ -26,18 +26,58 @@ div{
     border-radius: 9px;
 }
 
-.button_showNumber{
+#showNumber{
+   width: 93.5%;
    border-radius: 9px;
+   border: solid 7px black;
+   text-align: right;
+   padding-right: 25px;
 }
 
 .button_number{
     width: 167px;
     margin: 8px 3px;
     border-radius: 7px;
+    border: solid 5px;
+    cursor: pointer;
+}
+
+.button_number:hover{
+    background-color: khaki;
+}
+
+.button_number:focus {
+    font-size: 56px;
+}
+    
+.button_number.operator {
+    background-color: coral;
+    width: 167px;
+    margin: 8px 3px;
+    border-radius: 7px;
+    border: solid 5px;
+}
+
+.button_number.operator:hover{
+    background-color: darksalmon;
+}
+
+.button_number.reset {
+    background-color: gold;
+}
+
+.button_number.reset:hover{
+    background-color: goldenrod;
 }
 
 .buttom_igualdad{
     width: 167px;
     border-radius: 8px;
+    background-color: coral;
+    border: solid 5px;
+}
+
+.buttom_igualdad:hover{
+    background-color: darksalmon;
 }
 

@@ -1,19 +1,18 @@
 
-const numbers = document.querySelector(".num");
-const show = document.querySelector(".show");
+function alertFun(event){
+    const show = document.querySelector("#show");
+    const target = event.currentTarget;
+    console.log(`Hiciste Click y este es tu numero ${target.value}`);
+    console.log(show.value += target.value);
 
-function alertFunct(number) {
-    alert(`Hiciste Click en el numero ${number} y este es tu numero ${numbers}`);
-    console.log(numbers);
+}    
+
+function start() {
+    const numbers = document.querySelectorAll(".num");
+    numbers.forEach(item => {
+        item.addEventListener('click', alertFun)
+    });
 }
 
+document.addEventListener('DOMContentLoaded', start);
 
-
-
-
-
-
-
-// numbers.onclick=function() {
-//     alert("Hiciste Click en un numero");
-// }

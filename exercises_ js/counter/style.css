@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;   
+}
+
+body {
+    background-color: rgb(137, 77, 233);
+}
+
+.margin_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_container {
+    border: solid rgb(17, 13, 13) 2px;
+    width: 28rem;
+    height: 24rem;
+    margin: 6rem auto;
+    border-radius: 8rem;
+    background-image: linear-gradient(150deg, rgb(255, 49, 49) 0%, rgb(255, 109, 73) 100%);
+}
+
+div.container_counter {
+    border: solid 3px;
+    width: 16rem;
+    height: 9rem;
+    margin: 7.5rem auto;
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+div#counter {
+    margin: 1.1rem auto;
+    height: 1rem;
+    font-size: 6rem;
+}
+
+button {
+    height: 3rem;
+    width: 5rem;
+    border: solid 3px;
+    border-radius: 1rem;
+    background-image: linear-gradient(150deg, rgb(255, 17, 0) 0%, rgb(231, 95, 95) 100%);
+    margin: 0rem auto;
+    cursor: pointer;
+    margin-left: 0  rem;
+}
+
+
+button:hover {
+    background-image: linear-gradient(150deg, rgb(255, 17, 0) 0%, rgb(186, 28, 201) 100%);
+}
+
+button:active {
+    color: gainsboro;
+}
