@@ -1,0 +1,92 @@
+
+* {
+    font-size: 1.4rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+}
+
+.container {
+    border: solid 2px;
+    width: 50%;
+    height: 45rem;
+    margin: 3rem auto;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 10px 10px black;
+}
+
+#container_task {
+    height: 5rem;
+    text-align: center;
+    margin: 50px auto;
+}
+
+input.toWrite {
+    width: 12rem;
+    height: 2rem;
+    border: solid 3px;
+    border-radius: 10px;
+    padding-left: 13px;
+    border: solid crimson;
+}
+
+input.toWrite:focus {
+    border: none;
+    border: solid crimson;
+}
+
+button.sendTask {
+    height: 2.5rem;
+    width: 8.5rem;
+    border-radius: 12px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    margin-left: 4rem;
+    transition: 0.2s;
+}
+
+button.sendTask:hover {
+    color: turquoise;
+    cursor: pointer;
+    box-shadow: 0 0 10px crimson, 0 0 40px crimson, 0 0 80px crimson;
+}
+
+#container_display {
+    border: solid 3px black;
+    
+    width: 80%;
+    height: 32rem;
+    margin: 0px auto;
+    border-radius: 8px;
+    background-color: crimson;
+}
+
+.showTask {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-left: 3rem;
+}
+
+button.btn_delete {
+    border-radius: 12px;
+    border: none;
+    position: relative;
+    margin-left: 0rem;
+    width: 5.2rem;
+    height: 2rem;
+    transition: 0.2s;
+}
+
+button.btn_delete:hover {
+    color: crimson;
+    cursor: pointer;
+}

@@ -87,7 +87,7 @@ div.instructions {
 
 
 .form_input:focus {
-    border: solid 4px mediumspringgreen;
+    border: solid 2px mediumspringgreen;
 }
 
 .form_checkbox {

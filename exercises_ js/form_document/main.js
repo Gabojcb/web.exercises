@@ -1,4 +1,6 @@
 
+let stored = [];
+
 function validate(){
     regex={
         nameR: /^[a-zA-Z]+[a-zA-Z]+$/,
@@ -7,9 +9,7 @@ function validate(){
         emailR: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
         dataR: /^(0[1-9]|[1-2]\d|3[01])(\/)(0[1-9]|1[012])\2(\d{4})$/
     }
-
-    let stored = [];
-
+    
     function Users(name, lastName, age, email, birth){
         this.name = name,
         this.last = lastName,
@@ -32,32 +32,32 @@ function validate(){
     const email = document.querySelector('.email');
     const data = document.querySelector('.data');
          
-    if(! regex.nameR.test(name.value)){
-        console.log(message.innerHTML= 'Incorrect data'); 
+    if(!regex.nameR.test(name.value)){
+        message.innerHTML= 'Incorrect data'; 
     }else {
         console.log(`valid name`);
     };
 
-    if(! regex.lastNameR.test(lastName.value)){
-        console.log(message2.innerHTML='Incorrect data');  
+    if(!regex.lastNameR.test(lastName.value)){
+        message2.innerHTML='Incorrect data'  
     }else {
         console.log(`valid surname`);
     };
         
-    if(! regex.ageR.test(age.value)){
-        console.log(message3.innerHTML='Incorrect data');
+    if(!regex.ageR.test(age.value)){
+        message3.innerHTML='Incorrect data'
     }else {
         console.log(`Valid age`);
     };
 
-    if(! regex.emailR.test(email.value)){
-        console.log(message4.innerHTML='Incorrect data');
+    if(!regex.emailR.test(email.value)){
+        message4.innerHTML='Incorrect data'
     }else {
         console.log(`Valid email`);
     };
       
-    if(! regex.dataR.match(data.value)){ 
-        console.log(message5.innerHTML='Incorrect data');
+    if(!data.value.match(regex.dataR)){ 
+        message5.innerHTML='Incorrect data';
     }else {
         console.log(data.value);
     };
@@ -74,7 +74,7 @@ function start(){
     send.addEventListener('click', validate);
 }
 
-
+console.log(stored);
 document.addEventListener('DOMContentLoaded', start);
 
 
