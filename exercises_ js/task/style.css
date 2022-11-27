@@ -10,21 +10,30 @@ body {
 
 .container {
     border: solid 2px;
-    width: 50%;
-    height: 45rem;
+    width: 45%;
+    height: 47rem;
     margin: 3rem auto;
     border-radius: 12px;
     background-color: white;
     box-shadow: 0px 10px 10px black;
 }
 
+.title_container {
+    text-align: center;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-weight: bold;
+    text-shadow: turquoise 1px 4px 5px;
+}
+
 #container_task {
     height: 5rem;
     text-align: center;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
-input.toWrite {
+input.to_write {
     width: 12rem;
     height: 2rem;
     border: solid 3px;
@@ -33,12 +42,12 @@ input.toWrite {
     border: solid crimson;
 }
 
-input.toWrite:focus {
+input.to_write:focus {
     border: none;
     border: solid crimson;
 }
 
-button.sendTask {
+button.send_task {
     height: 2.5rem;
     width: 8.5rem;
     border-radius: 12px;
@@ -49,7 +58,7 @@ button.sendTask {
     transition: 0.2s;
 }
 
-button.sendTask:hover {
+button.send_task:hover {
     color: turquoise;
     cursor: pointer;
     box-shadow: 0 0 10px crimson, 0 0 40px crimson, 0 0 80px crimson;
@@ -59,13 +68,14 @@ button.sendTask:hover {
     border: solid 3px black;
     
     width: 80%;
-    height: 32rem;
+    height: 28rem;
     margin: 0px auto;
     border-radius: 8px;
     background-color: crimson;
+    overflow-y: auto;
 }
-
-.showTask {
+    
+.show_task {
     margin-left: 2rem;
     margin-top: 2rem;
     color: white;
@@ -74,6 +84,8 @@ button.sendTask:hover {
 
 input[type="checkbox"] {
     margin-left: 3rem;
+    height: 1rem;
+    width: 2rem;
 }
 
 button.btn_delete {
