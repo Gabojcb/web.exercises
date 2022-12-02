@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record of Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background_title">
+        <h2 class="title">Record of Notes</h2>
+    </div>
+    <section id="container_record">
+        <div class="title2_ratings">Ratings</div>
+            <form action="#" class="form_record">
+                <div class="label_name">
+                    <label for="#" class="label_name_names">Names</label>
+                    <input type="text" required class="record_names input_ratings">
+                </div>
+                <div class="flexbox_input">
+                    <div class="label_degree">
+                        <label class="label_degree_degree">Degree</label>
+                        <input type="number" class=" record_degree input_num">
+                    </div>
+                    <div class="label_math">
+                        <label for="#" class="label_math_math">Math</label>
+                        <input type="number" required class="record_math input_num input_ratings">
+                    </div>
+                    <div class="label_english">
+                        <label for="#" class="label_english_english">English</label>
+                        <input type="number" required class="record_english input_num input_ratings">
+                    </div>
+                    <div class="label_history">
+                        <label for="#" class="label_history_history">History</label>
+                        <input type="number" required class="record_history input_num input_ratings">
+                    </div>
+                </div>
+            </form>
+            <div class="border_message">
+                <p class="message_p">Click on the button to average notes</p>
+            </div>
+                <div class="btn_margin"><button class="btn_event">Evaluate notes</button></div>
+                <div class="result">
+                    <div class="message_background">Grade Results</div>
+                        <div class="container_table">
+                            <table class="table_notes">
+                                <thead class="header_table">
+                                    <tr class="data_students">
+                                        <td class="color_grey">Name</td>
+                                        <td class="color_grey">Degree</td>
+                                        <td class="color_grey">Math</td>
+                                        <td class="color_grey">English</td>
+                                        <td class="color_grey">History</td>
+                                        <td class="color_grey">Average</td>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                </div>
+        </section>
+        <script src="main.js"></script>
+</body>
+</html>
