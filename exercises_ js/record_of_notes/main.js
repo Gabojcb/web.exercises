@@ -6,6 +6,9 @@ const inputEnglish = document.querySelector('.record_english');
 const inputHistory = document.querySelector('.record_history');
 
 let stored = [];
+    if (localStorage.getItem('list')) {
+        objList = JSON.parse(localStorage.getItem('list'));
+    }
 
 // Creo un evento click sobre el boton de evaluar asociada a la funcion para evaluar los resultados
 const btnEvaluate = document.querySelector('.btn_event');
@@ -55,16 +58,9 @@ function dataStorage() {
     // Inserto los elementos en un arreglo vacio
     stored.push(insert);
 
-    // Transformo el objeto a un cadena de texto json
+    // Transformo el objeto a un cadena de texto json   
     localStorage.setItem('list', JSON.stringify(stored));
-
-    localStorage.getItem('list');
-
-    if (localStorage.getItem('list')) {
-        let objList = JSON.parse(localStorage.getItem('list')); 
-        console.log('Funciono la condicion', objList);
-    }
-    
+    console.log(objList);
 
 }
     
