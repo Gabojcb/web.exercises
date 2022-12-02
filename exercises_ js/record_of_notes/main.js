@@ -5,9 +5,12 @@ const inputMath = document.querySelector('.record_math');
 const inputEnglish = document.querySelector('.record_english');
 const inputHistory = document.querySelector('.record_history');
 
+//  Creo un Arreglo vacio que tendra la informacion que ira al LocalStorage
 let stored = [];
+
+    //  Valido si el valor list existe y lo transformo a un objeto de JavaScript y lo asigno al arreglo
     if (localStorage.getItem('list')) {
-        objList = JSON.parse(localStorage.getItem('list'));
+        stored = JSON.parse(localStorage.getItem('list'));
     }
 
 // Creo un evento click sobre el boton de evaluar asociada a la funcion para evaluar los resultados
@@ -60,9 +63,8 @@ function dataStorage() {
 
     // Transformo el objeto a un cadena de texto json   
     localStorage.setItem('list', JSON.stringify(stored));
-    console.log(objList);
+    console.log(stored);
 
 }
     
-console.log(localStorage.getItem('list'));
     
