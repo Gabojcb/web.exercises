@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <section class="display_grid">
+        <div class="image_viewer_container">
+            <input id="browse" type="file" onchange="previewFiles()" multiple>
+            <!-- <button class="btn_select_img">Select your images</button> -->
+        </div>
+        <div class="secction_image">
+            <table>
+                <tbody class="table_body">
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

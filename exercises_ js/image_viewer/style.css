@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 44px;
+    font-family: Helvetica, sans-serif;
+}
+
+.display_grid {
+    border: none;
+    width: 70%;
+    height: 950px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+.image_viewer_container {
+    grid-column: 3/4;
+    grid-row: 2/2;
+    border: 5px dashed #fff;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+input:hover {
+    color: #fff;
+    background-color: cornflowerblue;
+    transition: .4s;
+}
+
+input:active {
+    font-size: 17px;
+}
+
+.secction_image {
+    display: flex;
+    margin-top: 1rem;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    display: grid;
+    gap: 10px;
+    
+}
+
+tr.tr_table {
+    border: solid 3px black;
+    height: 50px;
+    width: 80%;
+}
+
+td {
+    display: flex;
+    border: solid 3px black;
+    background-color: #fff;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: lime;
+    margin-top: 17px;
+}
+
