@@ -1,30 +1,27 @@
 
 
-
+// Funcion que muestra en en la pantalla de la calculadora los botones que oprimes
 function showFun (event) {
-    const showNumbers = document.querySelector("#showNumber");
-    const operators = document.querySelectorAll('.operator');
+    const showNumbers = document.querySelector("#show_Number");
     const buttonNum = event.currentTarget;
-       
-    operators.forEach(operation => {
-        operation.addEventListener('click', (event) => {
-        const targetValue = event.currentTarget.value;
-       
-        });
-    });
-    console.log(showNumbers.value += target.value); 
-    
-    calculador.operacion1("Suma", 33, 12);            
+    // La varaable operationSing selecciona a todos los botones con un signo de operacion
+    const operationSign = document.querySelectorAll('.operator');
+    operationSign.forEach(e => {
+        const resta = new Calculador();
+        resta.operacion1(buttonNum, e.value, buttonNum);
+        console.log(e.value);
+    })
+    console.log(showNumbers.value += buttonNum.value); 
 }       
 
 function start() {
     const buttonNumbers = document.querySelectorAll(".button_number");
     buttonNumbers.forEach(item => {
-        item.addEventListener('click', showFun); 
+        item.addEventListener('click', showFun);
     })    
  }
-
-function Calculador() {
+ 
+ function Calculador() {
            let preRecord = [];
             characters ={
                 add: "+",
@@ -32,30 +29,30 @@ function Calculador() {
                 multiplication: "*",
                 division: "/"
         };
-            means ={
-                currentValue: a,
-                stored: b,
-                operation: c 
-            }
+            // means ={
+            //     currentValue: a,
+            //     stored: b,
+            //     operation: c 
+            // }
                         
-        this.operacion1 = function (operation, num1, num2){
+        this.operacion1 = function (num1, operation, num2){
             let data1;                                  
             let saveResult;
             
             switch(operation){
-                case "Suma":
+                case "+":
                     saveResult = num1 + num2;
                     data1 =`${operation} : ${num1} ${characters.add} ${num2} = ${saveResult}`;
                     break;
-                case "Resta":
+                case "-":
                     saveResult = num1 - num2;
                     data1 =`${operation} : ${num1} ${characters.subtract} ${num2} = ${saveResult}`;
                     break;
-                case "Multiplicar":
+                case "x":
                     saveResult = num1 * num2;
                     data1 =`${operation} : ${num1} ${characters.multiplication} ${num2} = ${saveResult}`;
                     break;
-                case "Division":
+                case "/":
                     saveResult = num1 / num2;
                     data1 =`${operation} : ${num1} ${characters.division} ${num2} = ${saveResult}`;
                     break;
@@ -100,4 +97,8 @@ function Calculador() {
     }
           
     document.addEventListener('DOMContentLoaded', start); 
+
+function calcular() {
+    console.log('Funciono esta funcion');
+}
         

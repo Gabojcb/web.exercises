@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    font-size: 25px;
+    display: flex;
+}
+
+.calculator-design {
+    width: 40%;
+    margin: 80px auto;
+    height: 750px;
+    border: solid 2px;
+    background-color: grey;
+}
+
+p {
+    font-size: 50px;
+    margin: auto auto;
+    font-weight: bold;
+
+    animation: teclear 5s steps(16);
+}
+
+@keyframes teclear {
+    from {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    height: 600px;
+    border: none;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+.container_input-display {
+    border: solid 2px;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    font-size: 55px;
+    text-align: right;
+    margin: auto 0;
+    margin-bottom: 50px;
+    grid-column: 1/5;
+    grid-row: 1/1;
+}
+
+.keypad {
+    font-size: 45px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.keypad:active {
+    font-size: 39px;
+}
+
+.keypad_btn-num:hover {
+    background-color: khaki;
+}
+
+.keypad_btn-operation {
+    background-color: darksalmon;
+}
+
+.keypad_btn-operation:hover {
+    background-color: lightsalmon;
+}
+
+.keypad_btn-igualdad {
+    background-color: gold;
+}
+
+.keypad_btn-igualdad:hover {
+    background-color: yellow;
+}
+
