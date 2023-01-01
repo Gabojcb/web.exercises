@@ -1,0 +1,71 @@
+const studentsModel = sequelize.define("students",{
+    //datos
+    "id_students":{type:Sequelize.INTEGER, primarykey:true},
+    "name":Sequelize.STRING,
+    "last_name":Sequelize.STRING,
+    "age": Sequelize.NUMBER,
+    "degree": Sequelize.NUMBER,
+    "section": Sequelize.STRING,
+    "id_school":{type:Sequelize.INTEGER, foreignkey:true}
+});
+
+sequelize.authenticate()
+    .then(()=> {
+        console.log("Conexion a la base de Datos");
+    })
+    .catch(error => {
+        console.log("Error de conexion" + error);
+    });
+    
+    studentsModel.findAll({atributes:["id_students","name", "last_name", "age", "degree", "section", "id_school"]})
+        .then(students => {
+            console.log(students);
+        })
+        .catch(error => {
+            console.log(error + "error de serve");
+        })
+
+app.listen(3000, () => {
+    console.log("server running on port", 3000);
+});
+
+
+
+
+
+
+const sequelize = new Sequelize("holamundo", "root", "mar.5009", {
+    host:"localhost",
+    dialect: "mysql",
+    define: {
+        timestamps:false
+    }
+});
+
+//defino el modelo de la tabla
+const studentsModel = sequelize.define("schools",{
+    //datos
+    id:{type:Sequelize.INTEGER, primaryKey:true},
+    school_name:Sequelize.STRING
+});
+
+sequelize.authenticate()
+    .then(()=> {
+        console.log("Conexion a la base de Datos");
+    })
+    .catch(error => {
+        console.log("Error de conexion" + error);
+    });
+    
+    studentsModel.findAll({atributes:["id", "school_name"]})
+        .then(students => {
+            const result = JSON.stringify(students);
+            console.log(result);
+        })
+        .catch(error => {
+            console.log(error + "error de serve");
+        })
+
+app.listen(3000, () => {
+    console.log("server running on port", 3000);
+});
