@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    place-items: center;
+    font-size: 21px;
+    font-weight: 900;
+    display: flex;
+    background-color: khaki;
+}
+
+
+#container {
+    display: grid;
+    width: 500px;
+    margin: 50px auto;
+    margin-left: 50px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.box {
+    width: 80px;
+    aspect-ratio: 1/1;
+    border: solid 1px;
+    position: relative;
+}
+
+.b8, .d8, .f8, .h8, .a7, .a5, .a3, .a1, .c7, .c5, .c3, .c1, .e7, .g7, .b6, .d6, 
+.f6, .h6, .e5, .g5, .b4, .d4, .f4, .h4, .e3, .g3, .b2, .d2, .f2, .h2, .e1, .g1  {
+    background-color: green;
+}
+
+.a8, .c8, .e8, .g8, .b7, .d7, .f7, .h7, .a6, .c6, .e6, .g6, .b5, .d5, .f5, .h5,
+.a4, .c4, .e4, .g4, .b3, .d3, .f3, .h3, .a2, .c2, .e2, .g2, .b1, .d1, .f1, .h1 {
+    background-color: #fff;
+}
+
+.num, .lyric {
+    margin-left: 5px;
+}
+
+.lyric {
+    position: absolute;
+    bottom: 0px;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: #fff;
+}
+
+.btn-init {
+    margin-top: 1rem;
+    width: 4.5rem;
+    height: 2rem;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-left: 30px;
+}
+
+.btn-init:hover {
+    color: #fff;
+    background: linear-gradient(150deg, forestgreen, green);
+}
+
+.btn-init:active {
+    font-size: 14px;
+}
+   
+.btn-solution {
+    margin-top: 1rem;
+    width: 6.9rem;
+    height: 2rem;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+.btn-solution:hover {
+    color: #fff;
+    background: linear-gradient(150deg, forestgreen, green);
+}
+
+.btn-solution:active {
+    font-size: 14px;
+}
+
+.btn-reset {
+    margin-top: 1rem;
+    width: 6.9rem;
+    height: 2rem;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+.btn-reset:hover {
+    color: #fff;
+    background: linear-gradient(150deg, forestgreen, green);
+}
+
+.btn-reset:active {
+    font-size: 14px;
+}
+
+.container_message {
+    margin: 0 10rem;
+}
+
+.message {
+    border: solid 2px;
+    width: 590px;
+    height: 410px;
+    background-color: #fff;
+    color: darkslateblue;
+    margin-left: 4rem;
+    box-shadow: 0px 10px 10px black;
+    border-radius: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 45px;
+    /* position: absolute; */
+    overflow: hidden;
+    align-items: center;
+    /* right: 180px; */
+}
+
+
+.title {
+    text-align: center;
+    border:  black;
+    text-shadow: -1px -1px p white,
+    1px -1px 0 white,
+    1px 1px 0 white,
+    -1px 1px 0 white
+}
+
+.h1_sub-title {
+    margin-top: 30px;
+    margin: 30px 40px;
+}
