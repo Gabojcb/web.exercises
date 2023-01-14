@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle at 48.36% 52.84%, #8e00e8 0, #5e00d1 50%, #1f04b9 100%);   
+     font-size: 80px;
+}
+
+.container {
+    width: 50%;
+    height: 80vh;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+
+.messages-shifts {
+    grid-column: 1/5;
+    grid-row: 1/1;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 900;
+    color:  #f3e95d;
+    border: black;
+}
+
+.messages__border {
+    border: solid #fff;
+    background-color: black;
+}
+
+/* rows */
+.button_1, .button_2, .button_3 {
+    grid-row: 2/2;
+}
+
+.button_4, .button_5, .button_6 {
+    grid-row: 3/3;
+}
+
+.button_7, .button_8, .button_9 {
+    grid-row: 4/4;
+}
+
+/* colunm */
+.button_1, .button_4, .button_7 {
+    grid-column: 1/2;
+}
+
+.button_2, .button_5, .button_8 {
+    grid-column: 2/3;
+}
+
+.button_3, .button_6, .button_9 {
+    grid-column: 3/4;
+}
+
+.reset {
+    grid-row: 5/5;
+    grid-column: 1/5;
+    height: 120px;
+    margin-top: 50px;
+    border: solid #fff;
+    background-color: black;
+    color: #fff;
+    font-size: 80px;
+    color:  #f3e95d;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: rgba(65, 64, 64, 0.87);
+}
+
+.reset:active {
+    font-size: 70px;
+}
+
+.boxes {
+    margin: 30px auto;
+    width: 95%;
+    height: 95%;
+    font-size: 90px;
+    font-weight: 900;
+    border: solid #fff;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.boxes:hover {
+    background-color: rgba(65, 64, 64, 0.87);
+}
