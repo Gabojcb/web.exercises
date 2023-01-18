@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__message-to-star">
+            <h3 class="message">What will your survey be about?</h3>
+            <input type="text" class="container__input-survey-title" placeholder="Write your question" pattern="[A-Z a-z]*">
+            <h3 class="message__options">Options:</h3>
+            <div class="container__display-inputs">
+                <input type="text" class="display__input-option" placeholder="+Add">
+            </div>
+
+            <button class="container__button-init">Create Survey</button>
+        </div>
+        
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
