@@ -38,10 +38,10 @@ function resetGame(button) {
     });
 }
 
-function howToWin() {
+function howToWin() { 
     if(button1.innerHTML === "X" && button2.innerHTML === "X" && button3.innerHTML === "X" ||
     button1.innerHTML === "X" && button4.innerHTML === "X" && button7.innerHTML === "X" || 
-    button1 .innerHTML === "X" && button5.innerHTML === "X" && button9.innerHTML === "X" ||
+    button1.innerHTML === "X" && button5.innerHTML === "X" && button9.innerHTML === "X" ||
     button3.innerHTML === "X" && button6.innerHTML === "X" && button9.innerHTML === "X" || 
     button3.innerHTML === "X" && button5.innerHTML === "X" && button7.innerHTML === "X" ||
     button4.innerHTML === "X" && button5.innerHTML === "X" && button6.innerHTML === "X" || 
@@ -52,7 +52,7 @@ function howToWin() {
     } else if (
     button1.innerHTML === "O" && button2.innerHTML === "O" && button3.innerHTML === "O" ||
     button1.innerHTML === "O" && button4.innerHTML === "O" && button7.innerHTML === "O" || 
-    button1 .innerHTML === "O" && button5.innerHTML === "O" && button9.innerHTML === "O" ||
+    button1.innerHTML === "O" && button5.innerHTML === "O" && button9.innerHTML === "O" ||
     button3.innerHTML === "O" && button6.innerHTML === "O" && button9.innerHTML === "O" || 
     button3.innerHTML === "O" && button5.innerHTML === "O" && button7.innerHTML === "O" ||
     button4.innerHTML === "O" && button5.innerHTML === "O" && button6.innerHTML === "O" || 

@@ -26,11 +26,11 @@ body {
     font-weight: 900;
     color:  #f3e95d;
     border: black;
-}
+}    
 
 .messages__border {
     border: solid #fff;
-    background-color: black;
+    background-color: black;    
 }
 
 /* rows */
@@ -71,6 +71,7 @@ body {
     color:  #f3e95d;
     transition: 0.2s all;
     cursor: pointer;
+    font-family: 'Fredoka One', cursive;
 }
 
 .reset:hover {
