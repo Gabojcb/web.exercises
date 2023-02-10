@@ -1,0 +1,90 @@
+.entrance__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.card {
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  padding: 50px 20px 0 20px;
+  box-sizing: border-box;
+  background: rgb(0, 114, 255);
+  background: radial-gradient(
+    circle,
+    rgba(0, 114, 255, 1) 1%,
+    rgba(33, 25, 173, 1) 100%
+  );
+  margin: 100px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card input {
+  font-size: 28px;
+  padding: 10px;
+  border: solid 1px rgb(45, 154, 226);
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 5px 0;
+  outline: none;
+}
+
+.card #inputCard::before {
+  content: "Card Number";
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.holder {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.input-text {
+  color: white;
+}
+
+.container__mesagge {
+  margin-top: 40px;
+}
+
+.mesage {
+  color:  white;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#inputCardNum {
+  width: 170px;
+}
+
+.container__button {
+  margin-top: 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-start {
+  width: 20%;
+  border-radius: 12px;
+  font-size: 23px;
+  color: rgb(0, 114, 255);
+  font-weight: 700;
+  background-color: #FF7343;
+  border: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-start:active {
+  font-size: 20px;
+}
