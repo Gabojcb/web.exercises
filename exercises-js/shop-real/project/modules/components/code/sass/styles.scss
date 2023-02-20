@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+body {
+    height: 100vh;
+    background-color: #937BAD;
+    color: #fff;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #24252a;
+    padding-left: 2vw;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .color {
+    color: white;
+  }
+  
+  .cont-ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    list-style: none;
+    cursor: pointer;
+    padding: 1.5vw;
+    transition:  all .3s ease 0s;
+  }
+  
+  li:hover {
+    background-color: #008849;
+  }
+  
+  .nav__products {
+    position: relative;
+  }
+  
+  .ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+  }
+  
+  .ul-second > li {
+    width: 190px;
+    transform: translateX(-20px);
+    border-bottom:solid 1px #fff ;
+    text-align: center;
+    background-color: #24252a;
+  }
+  
+  .ul-second > li:hover {
+    background-color: #008849;
+  }
+  
+  .nav__products:hover > .ul-second {
+    display: block;
+  }
+  
+  .ul-third {
+  position: absolute;
+  transform: translateX(100%);
+  right: 0;
+  top: 40%;
+  display: none;
+  background-color: #24252a;
+  }
+  
+  .ul-third > li {
+  padding: 1.5vw;
+  border-bottom: solid 1px #fff;
+  }
+  
+  .categories:hover > .ul-third {
+    display: block;
+  }
+  
+  @media (max-width:900px) {
+    .logo-shop {
+        display: none;
+    }
+  }
+
+.container__logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.logo-cart {
+  height: 40px;
+  transition: all .6s;
+}
+
+.anchorage {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__hero {
+    height: 400px;
+}
+
+.input-searc {
+  border-radius: 7px;
+  height: 35px;
+  color: #24252a;
+  text-align: center;
+  border: none;
+  margin-left: 10px;
+}

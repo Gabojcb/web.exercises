@@ -1,0 +1,72 @@
+import React from "react";
+import { Product } from "../product";
+
+export /*bundle*/ const Tools = () => {
+    return(
+        <>
+            <Product 
+                product='Screwdriver'
+                brand='None'
+                price='7$'
+                src='images/images-shop-real/herramientas/destornillador.png'
+                categories='tools'
+            />
+            <Product 
+                product='Kit tools'
+                brand='None'
+                price='13$'
+                src='images/images-shop-real/herramientas/kit-de-herramientas.png'
+                categories='tools'
+            />
+            <Product 
+                product='Flashlight'
+                brand='None'
+                price='10$'
+                src='images/images-shop-real/herramientas/linterna.png'
+                categories='tools'
+            />
+            <Product 
+                product='Wrench'
+                brand='None'
+                price='12$'
+                src='images/images-shop-real/herramientas/llave-ajustable.png'
+                categories='tools'
+            />
+            <Product 
+                product='Hammer'
+                brand='None'
+                price='5$'
+                src='images/images-shop-real/herramientas/martillo.png'
+                categories='tools'
+            />
+            <Product 
+                product='Shovel'
+                brand='None'
+                price='3$'
+                src='images/images-shop-real/herramientas/pala.png'
+                categories='tools'
+            />
+            <Product 
+                product='Pick'
+                brand='None'
+                price='4$'
+                src='images/images-shop-real/herramientas/pico.png'
+                categories='tools'
+            />
+            <Product 
+                product='Handsaw'
+                brand='None'
+                price='4$'
+                src='images/images-shop-real/herramientas/serrucho.png'
+                categories='tools'
+            />
+            <Product 
+                product='Drill'
+                brand='None'
+                price='6$'
+                src='images/images-shop-real/herramientas/taladro-electrico.png'
+                categories='tools'
+            />
+        </>
+    )
+}

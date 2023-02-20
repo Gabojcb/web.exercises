@@ -1,0 +1,31 @@
+{
+  "name": "home",
+  "platforms": [
+    "deno",
+    "web",
+    "android",
+    "ios",
+    "backend",
+    "node",
+    "ssr"
+  ],
+  "widget": {
+    "is": "page",
+    "route": "/",
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "home-page"
+    }
+  }
+}
