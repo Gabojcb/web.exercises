@@ -21,6 +21,7 @@
         "name": "web",
         "platform": "web",
         "environment": "development",
+        "bundles" : {"mode" :"sjs"},
         "ports": {
           "bundles": 6530
         }

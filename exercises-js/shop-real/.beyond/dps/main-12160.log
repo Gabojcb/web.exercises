@@ -1,6 +1,0 @@
-Dynamic processors logs:
-
-"bundles" took 2115 ms. to process
-"processors-registry" took 4326 ms. to process
-"ts.compiler" took 14854 ms. to process
-"ts.compiler" took 9108 ms. to process
