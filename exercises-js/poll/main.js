@@ -1,45 +1,65 @@
-const buttonInit = document.querySelector(".container__button-init");
-const container = document.querySelector(".container");
-const input = document.querySelector(".container__input-survey-title");
-const containerOptions = document.querySelector(".container__display-inputs");
-const displayOption = document.querySelectorAll(".display__input-option"); 
-const displayOptionArray = Array.from(displayOption); 
+const accountCreationButton = document.querySelector(".container__button-init");
+const containerTotal = document.querySelector(".container");
+const containerOptions = document.querySelector(".container__display-inputs"); 
+import { addInput } from "./add-input.js";
 
-buttonInit.addEventListener("click", ()=> {
-    const formTpl = `<form action="#" class="container__form">
-        <div class="message__form-show-title">${input.value}</div>
-    </form>`;
-    const options = `
-    <div class="container__options-flexbox">
-         <input type="checkbox">
-        <div class="options-div">${displayOption.values}</div>  
-    </div>`;
+const addOption = (itemIncluded) => containerOptions.insertAdjacentHTML("beforeend", itemIncluded);
 
-    console.log(displayOption.values);
-    container.insertAdjacentHTML("beforeend", formTpl);
-})
+const option = document.querySelectorAll(".display__input-option");
 
-//Inserto fuera de la funcion un input al que luego guardare en una variable
-let tpl_option = `<input type="text" class="display__input-option" id="option" placeholder="+Add">`;
-containerOptions.insertAdjacentHTML("beforeend", tpl_option);
+let tplOption = `<input type="text" class="display__input-option" id="option" placeholder="+Add">`;
+addOption(tplOption);
 const optionElement = document.querySelectorAll("#option");
 
 function addButton() {
-    //Input que inserte 
-    optionElement.forEach(op => {
-        op.addEventListener("focus", function addAnotherOption() {
-            //Por cada foco al elemento se inserta otro nuevo
-            containerOptions.insertAdjacentHTML("beforeend", tpl_option);
-            //Guardo en una variable actualizando los nuevos input que esten
-            const newSelectElement = document.querySelectorAll("#option");
-            newSelectElement.forEach(element => {
-                element.removeEventListener("focus", addAnotherOption);
-                element.addEventListener("focus", ()=> {
-                    containerOptions.insertAdjacentHTML("beforeend", tpl_option);
-                })
-            })
-        });  
-     })
+    const loop = (op) => {
+        addInput(op, containerOptions, tplOption);
+        addInput(op, containerOptions, tplOption);
+    }
+    optionElement.forEach(loop);
 }
-
 addButton();
+
+
+const getTpl = (value) => `
+    <form action="#" class="container__form" id="form">
+        <div class="message__form-show-title">${value}</div>
+    </form>
+    `;
+
+ const getOptions = (value) => `
+    <div class="container__options-flexbox">
+    <label for="#" class="options-div"><input type="radio" class="checkbox">${value}</label><br> 
+    </div>`;
+    
+const getButton = () => `
+<button class="reset-survey">remove</button>
+`   
+  
+const titleSurvey = document.querySelector(".container__input-survey-title");
+
+
+accountCreationButton.addEventListener("click", ()=> {
+    const inputNode = document.querySelectorAll(".display__input-option");
+    
+        const formTpl = getTpl(titleSurvey.value);
+        containerTotal.insertAdjacentHTML("beforeend", formTpl);
+        const containerForm = document.querySelector(".container__form");
+
+            const inputArray = Array.from(inputNode);
+            const modifiedInput = inputArray.map((item) => item.value);
+            modifiedInput.forEach((item)=> {
+                const showOptionsInForm = getOptions(item);
+                containerForm.insertAdjacentHTML("beforeend", showOptionsInForm);
+            })
+           
+        const btn = getButton() 
+        containerForm.insertAdjacentHTML("beforeend", btn);
+        
+        const remove = () => {
+            const btnRemove = document.querySelector(".reset-survey");
+            btnRemove.addEventListener("click", remove);
+        
+            containerForm.remove();
+        }
+})

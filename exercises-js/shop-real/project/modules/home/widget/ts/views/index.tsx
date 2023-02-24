@@ -6,9 +6,9 @@ function Page(): JSX.Element {
 
   return (
     <>
-      <Navigation  />
+      {/* <Navigation  /> */}
         
-      <Main />
+      {/* <Main /> */}
       <footer className="container__footer" id="footer-id">
         <div className="info__footer"><p className="message__infor">CONTACT</p></div>
         <div className="space-networks">

@@ -1,0 +1,58 @@
+import React from "react";
+import { Product } from "../product";
+
+export const /*bundle*/Foods = () => {
+    return(
+        <>
+            <Product 
+                product='Arepa'
+                brand='None'
+                price='3$'
+                src='images/images-shop-real/comidas/arepa-venezolana.png'
+                categories='foods'
+            />
+            <Product 
+                product='Arroz'
+                brand='None'
+                price='2.2$'
+                src='images/images-shop-real/comidas/arroz-con-salchicas.png'
+                categories='foods'
+            />
+            <Product 
+                product='Salad'
+                brand='None'
+                price='3$'
+                src='images/images-shop-real/comidas/ensalada.png'
+                categories='foods'
+            />
+            <Product 
+                product='Hamburger'
+                brand='None'
+                price='3$'
+                src='images/images-shop-real/comidas/hamburguesa-de-chorizo.png'
+                categories='foods'
+            />
+            <Product 
+                product='Pizza'
+                brand='None'
+                price='4$'
+                src='images/images-shop-real/comidas/pizza-margarita.png'
+                categories='foods'
+            />
+            <Product 
+                product='Pizza'
+                brand='None'
+                price='4.5$'
+                src='images/images-shop-real/comidas/pizza-suprema.png'
+                categories='foods'
+            />
+            <Product 
+                product='Sandwich'
+                brand='None'
+                price='2$'
+                src='images/images-shop-real/comidas/sandwich-de-pollo.png'
+                categories='foods'
+            />
+        </>
+    );
+}

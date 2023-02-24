@@ -17,7 +17,7 @@ body {
 
 .container {
     margin: 0 auto;
-    height: 900px;
+    height: 1900px;
 }
 
 .container__message-to-star {
@@ -92,7 +92,7 @@ input.container__input-survey-title:invalid {
 .display__input-option {
     margin-top: 20px;
     color: cornsilk ;
-    width: 300px;
+    width: 700px;
     height: 40px;
     font-size: 22px;
     border-radius: 4px;
@@ -105,7 +105,7 @@ input.container__input-survey-title:invalid {
     border-bottom: solid 4px var(--color-hover);
 }
 
-.container__button-init {
+.container__button-init, .reset-survey {
     margin-top: 50px;
     margin-bottom: 40px;
     width: 290px;
@@ -117,11 +117,18 @@ input.container__input-survey-title:invalid {
     box-shadow: var(--caja-sombra);
     background-color: var(--color-container-btn);
     color: var(--color-body);
+    text-decoration: none;
+    align-items: center;
     cursor: pointer;
+    transition: 0.2s;
 }
 
-.container__button-init:hover {
+.container__button-init:hover, .reset-survey:hover {
     background-color: var(--color-hover);
+}
+
+.container__button-init:active, .reset-survey:active {
+    font-size: 28px;
 }
 
 .container__form {
@@ -137,6 +144,7 @@ input.container__input-survey-title:invalid {
     /* max-height: 850px; */
     border: solid 1px;
     box-shadow: var(--caja-sombra);
+    margin-bottom: 40px;
 }
 
 .message__form-show-title {
@@ -145,4 +153,37 @@ input.container__input-survey-title:invalid {
     text-align: center;
     color: cornsilk;
     font-weight: 900;
+    border: none;
+    /* box-shadow: var(--caja-sombra); */
+    outline: none;
+    background-color: var(--color-container-btn);
+    border-bottom: solid 4px var(--color-hover);
+    margin-bottom: 50px;
+}
+
+div.container__options-flexbox {
+    margin-top: 10px;
+    width: 80%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    max-height: 550px;
+    width: 80%;
+    overflow: hidden;
+}
+
+.checkbox {
+    width: 2rem;
+    height: 1rem;
+}
+
+.options-div {
+    display: flexbox;
+    flex-direction: row;
+    font-size: 22px;
+    color: cornsilk;
+    border: none;
+    outline: none;
+    background-color: var(--color-container-btn);
+    border-bottom: solid 4px var(--color-hover);
 }

@@ -1,0 +1,9 @@
+Dynamic processors logs:
+
+"applications" took 3737 ms. to process
+"utils.config.property.file" took 3952 ms. to process
+"bundles" took 4079 ms. to process
+"processors-registry" took 4001 ms. to process
+"application.template.application.processor" took 3918 ms. to process
+"sass.analyzer" took 2095 ms. to process
+"ts.compiler" took 16905 ms. to process

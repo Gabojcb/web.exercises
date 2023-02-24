@@ -1,0 +1,40 @@
+.container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     margin: 100px auto;
+
+     .text-primary {
+        font-size: 39px;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+}
+
+.hero-img {
+   margin-top: 60px;
+   
+   & {
+      animation: move 5s infinite;
+   }
+   
+   @keyframes move {
+      0%{
+         transform: translateY(0px);
+      }
+      20%{
+         transform: translateY(10px);
+      }
+      40%{
+         transform:  translateY(-10px);
+      }
+      60%{
+         transform: translateY(10px);
+      }
+      80%{
+         transform: translateY(-10px);
+      }
+   }
+}
+

@@ -1,0 +1,73 @@
+import React from "react";
+import { Product } from "../product";
+
+export /*bundle*/ const Home = () => {
+    return(
+        <>
+        <Product 
+            product='Bed'
+            brand='None'
+            price='120$'
+            src='images/images-shop-real/hogar/cama.png'
+            categories='home'
+        />
+        <Product 
+            product='Oven'
+            brand='Midea'
+            price='80$'
+            src='images/images-shop-real/hogar/horno-lg.png'
+            categories='home'
+        />
+        <Product 
+            product='Lamp'
+            brand='Eufy'
+            price='30$'
+            src='images/images-shop-real/hogar/lampara-italiana.png'
+            categories='home'
+        />
+        <Product 
+            product='Table'
+            brand='Hogare'
+            price='100$'
+            src='images/images-shop-real/hogar/mesa-comedor.png'
+            categories='home'
+        />
+        <Product 
+            product='Extending Table'
+            brand='TopLiving'
+            price='120$'
+            src='images/images-shop-real/hogar/mesa-extendible.png'
+            categories='home'
+        />
+        <Product 
+            product='Fridge'
+            brand='LG'
+            price='200$'
+            src='images/images-shop-real/hogar/nevera-lg.png'
+            categories='home'
+        />
+        <Product 
+            product='Chairs'
+            brand='None'
+            price='60$'
+            src='images/images-shop-real/hogar/sillas-de-hogar.png'
+            categories='home'
+        />
+        <Product 
+            product='Couch'
+            brand='Cardiff'
+            price='95$'
+            src='images/images-shop-real/hogar/sofa-cardiff.png'
+            categories='home'
+        />
+        <Product 
+            product='Tv'
+            brand='Samsung'
+            price='167$'
+            src='images/images-shop-real/hogar/tv-samsung.png'
+            categories='home'
+        />
+        </>
+    )
+}
+    
