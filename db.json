@@ -1,70 +1,61 @@
 {
     "products": [
-        {
-            "id": 1,
+        {            
             "name": "Bed",
             "price": "none",
             "src": "images/images-shop-real/hogar/cama.png",
             "categories": "home"
         },
-        {
-            "id": 2,
+        {            
             "name":"Oven",
             "brand": "Midea",
             "price": "80$",
             "src": "images/images-shop-real/hogar/horno-lg.png",
             "categories":"home"
         },
-        {
-            "id": 3,
+        {            
             "name":"Lamp",
             "brand": "Eufy",
             "price": "30$",
             "src":"images/images-shop-real/hogar/lampara-italiana.png",
             "categories": "home"
         },
-        {
-            "id": 4,
+        {            
             "name":"Table",
             "brand": "Hogare",
             "price": "100$",
             "src": "images/images-shop-real/hogar/mesa-comedor.png",
             "categories": "home"
         },
-        {
-            "id": 5,
+        {            
             "name":"Fridge",
             "brand": "LG",
             "price": "200$",
             "src": "images/images-shop-real/hogar/nevera-lg.png",
             "categories": "home"
         }, 
-        {
-            "id": 6,
+        {            
             "name": "Chairs",
             "brand": "none",
             "price": "60$",
             "src": "images/images-shop-real/hogar/sillas-de-hogar.png",
             "categories": "home"
         },
-        {
-            "id": 7,
+        {            
             "name":"Couch",
             "brand": "Cardiff",
             "price": "95$",
             "src": "images/images-shop-real/hogar/sofa-cardiff.png",
             "categories": "home"
         },
-        {
-            "id": 8,
+        {            
             "name":"Tv",
             "brand": "Samsung",
             "price": "167$",
             "src":"images/images-shop-real/hogar/tv-samsung.png",
             "categories": "home"
         },
-        {
-            "id": 9,
+        {            
             "name":"Ball Basquet",
             "brand": "Wilson",
             "price": "65$",
@@ -72,7 +63,6 @@
             "categories": "balls"
         },
         {
-            "id": 10,
             "name":"Ball soccer",
             "brand": "Nike",
             "price": "45$",
@@ -80,7 +70,6 @@
             "categories":"balls"
         },
         {
-            "id": 11,
             "name":"Ball soccer",
             "brand": "Mikasa",
             "price": "50$",
@@ -88,7 +77,6 @@
             "categories": "balls"
         },
         {
-            "id": 12,
             "name":"Ball voleibol",
             "brand": "Molten",
             "price": "30$",
@@ -96,7 +84,6 @@
             "categories": "balls"
         },
         {
-            "id": 13,
             "name":"Shirt",
             "brand": "None",
             "price": "15$",
@@ -104,23 +91,6 @@
             "categories": "clothes"
         },
         {
-            "id": 14,
-            "name":"Shirt",
-            "brand": "None",
-            "price": "15$",
-            "src":"images/images-shop-real/ropas/camisa-hombre",
-            "categories": "clothes"
-        },
-        {
-            "id": 15,
-            "name":"Vest",
-            "brand": "None",
-            "price": "20$",
-            "src":"images/images-shop-real/ropas/chaleco-tipo-ingeniero",
-            "categories": "clothes"
-        },
-        {
-            "id": 16,
             "name":"Cap",
             "brand": "Fresh",
             "price": "35$",
@@ -128,7 +98,6 @@
             "categories": "clothes"
         },
         {
-            "id": 17,
             "name":"Cap",
             "brand": "Nike",
             "price": "30$",
@@ -136,7 +105,6 @@
             "categories": "clothes"
         },
         {
-            "id": 18,
             "name":"Jeans",
             "brand": "None",
             "price": "15$",
@@ -144,7 +112,6 @@
             "categories": "clothes"
         },
         {
-            "id": 19,
             "name":"Pants",
             "brand": "None",
             "price": "20$",
@@ -152,7 +119,6 @@
             "categories": "clothes"
         },
         {
-            "id": 20,
             "name":"Shoes",
             "brand": "None",
             "price": "20$",
@@ -160,7 +126,6 @@
             "categories": "clothes"
         },
         {
-            "id": 21,
             "name":"Shoes",
             "brand": "Kondor",
             "price": "25$",
@@ -168,7 +133,6 @@
             "categories": "clothes"
         },
         {
-            "id": 22,
             "name":"Ps5",
             "brand":"Sony",
             "price":"900$",
@@ -176,7 +140,6 @@
             "categories":"consoles"
         },
         {
-            "id": 23,
             "name":"Psp",
             "brand":"Sony",
             "price":"100$",
@@ -184,7 +147,6 @@
             "categories":"consoles"
         },
         {
-            "id": 24,
             "name":"switch",
             "brand":"Nintendo",
             "price":"500$",
@@ -192,7 +154,6 @@
             "categories":"consoles"
         },
         {
-            "id": 25,
             "name":"Xbox 360",
             "brand":"Microsoft",
             "price":"120$",
@@ -200,7 +161,6 @@
             "categories":"consoles"
         },
         {
-            "id": 26,
             "name":"Xbox one",
             "brand":"Microsoft",
             "price":"600$",
@@ -208,7 +168,6 @@
             "categories":"consoles"
         },
         {
-            "id": 27,
             "name":"Smoothie",
             "brand":"None",
             "price":"1.5$",
@@ -216,7 +175,6 @@
             "categories":"drinks"
         },
         {
-            "id": 28,
             "name":"Coca-cola",
             "brand":"None",
             "price":"1.2$",
@@ -224,31 +182,6 @@
             "categories":"drinks"
         },
         {
-            "id": 29,
-            "name":"Coffee with cream",
-            "brand":"None",
-            "price":"1$",
-            "src":"images/images-shop-real/bebidas/bebida-de-cafe-crema.png",
-            "categories":"drinks"
-        },
-        {
-            "id": 30,
-            "name":"American beer",
-            "brand":"American",
-            "price":"1.2$",
-            "src":"images/images-shop-real/bebidas/cerveza-americana.png",
-            "categories":"drinks"
-        },
-        {
-            "id": 31,
-            "name":"Heineken beer",
-            "brand":"Heineken",
-            "price":"1.3$",
-            "src":"images/images-shop-real/bebidas/cerveza-heineken.png",
-            "categories":"drinks"
-        },
-        {
-            "id": 32,
             "name":"Malta",
             "brand":"Venezolana",
             "price":"1.2$",
@@ -256,7 +189,6 @@
             "categories":"drinks"
         },   
         {
-            "id": 33,
             "name":"Pepsi",
             "brand":"Pepsi",
             "price":"2.2$",
@@ -264,7 +196,6 @@
             "categories":"drinks"
         },
         {
-            "id": 34,
             "name":"Arepa",
             "brand":"None",
             "price":"3$",
@@ -272,7 +203,6 @@
             "categories":"foods"
         },
         {
-            "id": 35,
             "name":"Arroz",
             "brand":"None",
             "price":"2.2$",
@@ -280,7 +210,6 @@
             "categories":"foods"
         },
         {
-            "id": 36,
             "name":"Salad",
             "brand":"None",
             "price":"3$",
@@ -288,7 +217,6 @@
             "categories":"foods"
         },
         {
-            "id": 37,
             "name":"Hamburger",
             "brand":"None",
             "price":"3$",
@@ -296,7 +224,6 @@
             "categories":"foods"
         },
         {
-            "id": 38,
             "name":"Pizza",
             "brand":"None",
             "price":"4$",
@@ -304,7 +231,6 @@
             "categories":"foods"
         },
         {
-            "id": 39,
             "name":"Pizza",
             "brand":"None",
             "price":"4.5$",
@@ -312,71 +238,6 @@
             "categories":"foods"
         },
         {
-            "id": 40,
-            "name":"Sandwich",
-            "brand":"None",
-            "price":"2$",
-            "src":"images/images-shop-real/comidas/sandwich-de-pollo.png",
-            "categories":"foods"
-        },
-        {
-            "id": 41,
-            "name":"Infinix hot",
-            "brand":"Infinix",
-            "price":"125$",
-            "src":"images/images-shop-real/telefonos/infinix-hot9.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 42,
-            "name":"Infinix Note",
-            "brand":"Infinix",
-            "price":"145$",
-            "src":"images/images-shop-real/telefonos/infinix-note12.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 43,
-            "name":"Iphone 12",
-            "brand":"Apple",
-            "price":"625$",
-            "src":"images/images-shop-real/telefonos/iphone12.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 44,
-            "name":"iphone13",
-            "brand":"Apple",
-            "price":"825$",
-            "src":"images/images-shop-real/telefonos/iphone13.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 45,
-            "name":"Retmi note",
-            "brand":"Xiaomi",
-            "price":"135$",
-            "src":"images/images-shop-real/telefonos/retmi-note11.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 46,
-            "name":"Retmi9",
-            "brand":"Xiaomi",
-            "price":"130$",
-            "src":"images/images-shop-real/telefonos/retmi9.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 47,
-            "name":"Samsung A32",
-            "brand":"Samsung",
-            "price":"325$",
-            "src":"images/images-shop-real/telefonos/samsung-a32.png",
-            "categories":"telephones"
-        },
-        {
-            "id": 48,
             "name":"Samsung galaxy A22",
             "brand":"Samsung",
             "price":"215$",
@@ -384,7 +245,6 @@
             "categories":"telephones"
         },
         {
-            "id": 49,
             "name":"Screwdriver",
             "brand":"None",
             "price":"7$",
@@ -392,7 +252,6 @@
             "categories":"tools"
         },
         {
-            "id": 50,
             "name":"Kit tools",
             "brand":"None",
             "price":"13$",
@@ -400,31 +259,6 @@
             "categories":"tools"
         },
         {
-            "id": 51,
-            "name":"Flashlight",
-            "brand":"None",
-            "price":"10$",
-            "src":"images/images-shop-real/herramientas/linterna.png",
-            "categories":"tools"
-        }, 
-        {
-            "id": 52,
-            "name":"Flashlight",
-            "brand":"None",
-            "price":"10$",
-            "src":"images/images-shop-real/herramientas/linterna.png",
-            "categories":"tools"
-        },
-        {
-            "id": 53,
-            "name":"Hammer",
-            "brand":"None",
-            "price":"5$",
-            "src":"images/images-shop-real/herramientas/martillo.png",
-            "categories":"tools"
-        },
-        {
-            "id": 54,
             "name":"Shovel",
             "brand":"None",
             "price":"3$",
@@ -432,7 +266,6 @@
             "categories":"tools"
         },
         {
-            "id": 55,
             "name":"Pick",
             "brand":"None",
             "price":"4$",
@@ -440,15 +273,6 @@
             "categories":"tools"
         },
         {
-            "id": 56,
-            "name":"Pick",
-            "brand":"None",
-            "price":"4$",
-            "src":"images/images-shop-real/herramientas/pico.png",
-            "categories":"tools"
-        },
-        {
-            "id": 57,
             "name":"Drill",
             "brand":"None",
             "price":"6$",
