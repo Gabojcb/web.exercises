@@ -208,78 +208,7 @@
             "price":"2.2$",
             "src":"images/images-shop-real/comidas/arroz-con-salchicas.png",
             "categories":"foods"
-        },
-        {
-            "name":"Salad",
-            "brand":"None",
-            "price":"3$",
-            "src":"images/images-shop-real/comidas/ensalada.png",
-            "categories":"foods"
-        },
-        {
-            "name":"Hamburger",
-            "brand":"None",
-            "price":"3$",
-            "src":"images/images-shop-real/comidas/hamburguesa-de-chorizo.png",
-            "categories":"foods"
-        },
-        {
-            "name":"Pizza",
-            "brand":"None",
-            "price":"4$",
-            "src":"images/images-shop-real/comidas/pizza-margarita.png",
-            "categories":"foods"
-        },
-        {
-            "name":"Pizza",
-            "brand":"None",
-            "price":"4.5$",
-            "src":"images/images-shop-real/comidas/pizza-suprema.png",
-            "categories":"foods"
-        },
-        {
-            "name":"Samsung galaxy A22",
-            "brand":"Samsung",
-            "price":"215$",
-            "src":"images/images-shop-real/telefonos/samsung-galaxy-a22.png",
-            "categories":"telephones"
-        },
-        {
-            "name":"Screwdriver",
-            "brand":"None",
-            "price":"7$",
-            "src":"images/images-shop-real/herramientas/destornillador.png",
-            "categories":"tools"
-        },
-        {
-            "name":"Kit tools",
-            "brand":"None",
-            "price":"13$",
-            "src":"images/images-shop-real/herramientas/kit-de-herramientas.png",
-            "categories":"tools"
-        },
-        {
-            "name":"Shovel",
-            "brand":"None",
-            "price":"3$",
-            "src":"images/images-shop-real/herramientas/pala.png",
-            "categories":"tools"
-        },
-        {
-            "name":"Pick",
-            "brand":"None",
-            "price":"4$",
-            "src":"images/images-shop-real/herramientas/pico.png",
-            "categories":"tools"
-        },
-        {
-            "name":"Drill",
-            "brand":"None",
-            "price":"6$",
-            "src":"images/images-shop-real/herramientas/taladro-electrico.png",
-            "categories":"tools"
         }
-
 ],
     "categories": [
 
