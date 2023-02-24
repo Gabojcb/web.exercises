@@ -55,13 +55,6 @@
             "src":"images/images-shop-real/hogar/tv-samsung.png",
             "categories": "home"
         },
-        {            
-            "name":"Ball Basquet",
-            "brand": "Wilson",
-            "price": "65$",
-            "src":"images/images-shop-real/balls/balon-de-basquet",
-            "categories": "balls"
-        },
         {
             "name":"Ball soccer",
             "brand": "Nike",
@@ -75,62 +68,6 @@
             "price": "50$",
             "src":"images/images-shop-real/balls/balon-futbol.png",
             "categories": "balls"
-        },
-        {
-            "name":"Ball voleibol",
-            "brand": "Molten",
-            "price": "30$",
-            "src":"images/images-shop-real/balls/voleibol",
-            "categories": "balls"
-        },
-        {
-            "name":"Shirt",
-            "brand": "None",
-            "price": "15$",
-            "src":"images/images-shop-real/ropas/camisa-azul",
-            "categories": "clothes"
-        },
-        {
-            "name":"Cap",
-            "brand": "Fresh",
-            "price": "35$",
-            "src":"images/images-shop-real/ropas/gorra-fresh",
-            "categories": "clothes"
-        },
-        {
-            "name":"Cap",
-            "brand": "Nike",
-            "price": "30$",
-            "src":"images/images-shop-real/ropas/gorra-nike",
-            "categories": "clothes"
-        },
-        {
-            "name":"Jeans",
-            "brand": "None",
-            "price": "15$",
-            "src":"images/images-shop-real/ropas/jeans-damas",
-            "categories": "clothes"
-        },
-        {
-            "name":"Pants",
-            "brand": "None",
-            "price": "20$",
-            "src":"images/images-shop-real/ropas/pantalones-verdes",
-            "categories": "clothes"
-        },
-        {
-            "name":"Shoes",
-            "brand": "None",
-            "price": "20$",
-            "src":"images/images-shop-real/ropas/zapatos-jordan",
-            "categories": "clothes"
-        },
-        {
-            "name":"Shoes",
-            "brand": "Kondor",
-            "price": "25$",
-            "src":"images/images-shop-real/ropas/zapatos-kondor",
-            "categories": "clothes"
         },
         {
             "name":"Ps5",
