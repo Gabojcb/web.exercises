@@ -1,0 +1,7 @@
+Dynamic processors logs:
+
+"processors-registry" took 3450 ms. to process
+[31mDynamic processor "[1mbundler.transversal.packager.code[22m: 1766972029//start//1334341767//." is taking more than expected.[39m
+[1m	Waiting for:[22m
+		* transversal.packager.packagers.code: not initialised
+

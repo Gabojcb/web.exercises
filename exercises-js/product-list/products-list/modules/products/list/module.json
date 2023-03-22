@@ -1,0 +1,22 @@
+{
+  "name": "products/list",
+  "widget": {
+    "route": "/products/list",
+    "is": "page",
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "app-products-list"
+    }
+  }
+}

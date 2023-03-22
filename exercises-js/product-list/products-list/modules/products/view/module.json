@@ -1,0 +1,23 @@
+{
+  "name": "products/view",
+  "description": "Details page of products",
+  "widget": {
+    "route": "/products/view/${name}",
+    "is": "page",
+    "sass": {
+      "path": "/widget/sass",
+      "files": [
+        "*"
+      ]
+    },
+    "ts": {
+      "path": "/widget/ts",
+      "files": [
+        "*"
+      ]
+    },
+    "element": {
+      "name": "app-products-view"
+    }
+  }
+}

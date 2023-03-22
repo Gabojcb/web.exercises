@@ -1,0 +1,11 @@
+{
+  "name": "models",
+  "code": {
+    "ts": {
+      "path": "/code/ts",
+      "files": [
+        "*"
+      ]
+    }
+  }
+}

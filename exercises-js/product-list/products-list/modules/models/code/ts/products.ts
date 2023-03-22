@@ -1,0 +1,147 @@
+export /*bundle*/ const products = [
+  {
+    id: 1,
+    name: "Smart TV",
+    category: "Electronics",
+    price: 899.99,
+    brand: "Samsung",
+    description:
+      "65-inch 4K Ultra HD Smart TV with built-in streaming services.",
+  },
+  {
+    id: 2,
+    name: "Wireless Earbuds",
+    category: "Electronics",
+    price: 199.99,
+    brand: "Apple",
+    description:
+      "AirPods Pro with noise cancellation and wireless charging case.",
+  },
+  {
+    id: 3,
+    name: "Sneakers",
+    category: "Fashion",
+    price: 89.99,
+    brand: "Adidas",
+    description:
+      "Classic sneakers with a modern twist, perfect for everyday wear.",
+  },
+  {
+    id: 4,
+    name: "Sofa",
+    category: "Home",
+    price: 999.99,
+    brand: "IKEA",
+    description:
+      "Stylish and comfortable sofa with durable fabric and adjustable headrests.",
+  },
+  {
+    id: 5,
+    name: "Hair Dryer",
+    category: "Beauty & Personal Care",
+    price: 49.99,
+    brand: "Conair",
+    description:
+      "Ionic hair dryer with ceramic technology for smooth and shiny hair.",
+  },
+  {
+    id: 6,
+    name: "Laptop",
+    category: "Electronics",
+    price: 1499.99,
+    brand: "Dell",
+    description:
+      "Powerful laptop with 11th Gen Intel Core processor and NVIDIA graphics.",
+  },
+  {
+    id: 7,
+    name: "Running Shoes",
+    category: "Fashion",
+    price: 129.99,
+    brand: "Nike",
+    description: "Lightweight and breathable running shoes for men or women.",
+  },
+  {
+    id: 8,
+    name: "Robot Vacuum",
+    category: "Home",
+    price: 399.99,
+    brand: "iRobot",
+    description:
+      "Smart robot vacuum with powerful suction and mapping technology.",
+  },
+  {
+    id: 9,
+    name: "Curling Iron",
+    category: "Beauty & Personal Care",
+    price: 29.99,
+    brand: "Revlon",
+    description:
+      "Curling iron with ceramic and tourmaline technology for frizz-free curls.",
+  },
+  {
+    id: 10,
+    name: "Smartwatch",
+    category: "Electronics",
+    price: 399.99,
+    brand: "Apple",
+    description:
+      "Apple Watch Series 7 with cellular connectivity and fitness tracking features.",
+  },
+  {
+    id: 11,
+    name: "Samsung Galaxy S21",
+    category: "Electronics",
+    price: 799.99,
+    description: "The latest smartphone from Samsung with 5G capabilities.",
+    brand: "Samsung",
+  },
+  {
+    id: 12,
+    name: "Fitbit Charge 4",
+    category: "Electronics",
+    price: 129.95,
+    description: "Fitness tracker with built-in GPS and heart rate monitoring.",
+    brand: "Fitbit",
+  },
+  {
+    id: 13,
+    name: "Apple AirPods Pro",
+    category: "Electronics",
+    price: 249.0,
+    description: "Wireless earbuds with noise cancelling technology.",
+    brand: "Apple",
+  },
+  {
+    id: 14,
+    name: "Levi's 501 Jeans",
+    category: "Fashion",
+    price: 69.5,
+    description: "Classic straight leg jeans made from 100% cotton.",
+    brand: "Levi's",
+  },
+  {
+    id: 15,
+    name: "Ray-Ban Classic Wayfarer Sunglasses",
+    category: "Fashion",
+    price: 154.0,
+    description: "Iconic sunglasses with a timeless design.",
+    brand: "Ray-Ban",
+  },
+  {
+    id: 16,
+    name: "Ninja Foodi Grill",
+    category: "Home",
+    price: 239.99,
+    description: "Indoor grill that can also air fry, bake, and roast.",
+    brand: "Ninja",
+  },
+  {
+    id: 17,
+    name: "Dyson V11 Absolute Cordless Vacuum",
+    category: "Home",
+    price: 599.99,
+    description: "Powerful cordless vacuum with advanced filtration.",
+    brand: "Dyson",
+  },
+];
