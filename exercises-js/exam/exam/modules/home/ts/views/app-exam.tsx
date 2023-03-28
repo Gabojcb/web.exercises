@@ -3,7 +3,7 @@ import * as React from "react";
 export /* bundle */ function AppExam() {
   const [firtsValue, setFirstValue] = React.useState(0);
   const [secondValue, setSecondValue] = React.useState(0);
-  const [threeValue, setThreeValue] = React.useState(0);
+  const [threeValue, setThreeValue] = React.useState(1);
 
   const handleClickValue = () => {
     setFirstValue(firtsValue + 1);
