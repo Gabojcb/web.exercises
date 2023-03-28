@@ -15,6 +15,9 @@
   "modules": {
     "path": "./modules"
   },
+  "static": {
+    "includes": "images"
+  },
   "deployment": {
     "distributions": [
       {
